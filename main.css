@@ -1,0 +1,36 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+.input-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -128px;
+  margin-top: -84px;
+}
+.input {
+  color: #555;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 256px;
+  font-size: 18px;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  border: 1px solid #ebebeb;
+  transition: border 400ms ease;
+  outline: 0;
+}
+.input:focus {
+  border: 1px solid #666;
+}
+.output {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 256px;
+  font-size: 18px;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
